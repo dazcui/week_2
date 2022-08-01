@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="App" backgroundColor="red">
       <CardClima lon={coords?.lon} lat={coords?.lat} />
+      
     </div>
   )
 }
