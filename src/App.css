@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b776f37;
+    color: aqua;
+    background-color: #CBA0AE;
+}
+
+.weather_box {
+    background-color: #e6e0d1;
+    max-height: 700px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+ul {
+    list-style: none;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrip_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    font-size: 15px;
+}
+
+button {
+    background-color: #6f7275;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 1s;
+    color: aqua;
+}
+
+button:hover {
+    background-color: #6c94c7;
+}
+
+.On {
+    background-image: url(./image/nublado.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.Off {
+    background-image: url(./image/tormenta.jpg);
+    background-repeat: no-repeat;
+
+}
