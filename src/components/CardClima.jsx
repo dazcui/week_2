@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import LoadingScreen from './loadingScreen'
+import LoadingScreen from './LoadingScreen.jsx'
 
 const CardClima = ({ lat, lon }) => {
   const [weather, setWeather] = useState()
